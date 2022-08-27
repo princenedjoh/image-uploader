@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+}
+
+.copiedMain{
+    font-size: 13px;
+    display: none;
+    position: absolute;
+    top: 640px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #bdbaba;
+    border-radius: 100px;
+    animation: copiedMainAnimation 0.5s ease-in-out forwards;
+}
+
+
+@keyframes copiedMainAnimation{
+    100%{
+        transform: translatey(-70px);
+    }
+}
